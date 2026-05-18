@@ -3,12 +3,12 @@ import os, asyncio, re, requests
 from playwright.async_api import async_playwright
 from playwright_stealth import Stealth
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
-MY_USER = os.getenv("MY_USER")
-MY_PASS = os.getenv("MY_PASS")
-TARGET_URL = "http://139.99.208.63/ints/client/SMSCDRStats"
-LOGIN_URL = "http://139.99.208.63/ints/login"
+BOT_TOKEN = os.getenv("8834838469:AAF__Pe4Lu3ddUizttOlSARFxn-3UArXEys")
+CHAT_ID = os.getenv("-1003539792781")
+MY_USER = os.getenv("Earnx098")
+MY_PASS = os.getenv("Earnx098")
+TARGET_URL = "http://smshadi.net/client/SMSCDRStats"
+LOGIN_URL = "http://smshadi.net/login"
 FB_URL = "https://tafsir-bot-7983f-default-rtdb.asia-southeast1.firebasedatabase.app/bot"
 
 def update_firebase(num, msg, date_str):
